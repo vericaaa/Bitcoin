@@ -1,0 +1,334 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,400&display=swap');
+
+/*
+font-family: 'Rubik', sans-serif;
+*/
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #5B6C94;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*HEADER*/
+.navbar-brand{
+    max-width: 40%;
+
+}
+
+.navbar-toggler span{
+    display: block;
+    background-color: #1FDB84;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+header .navbar-nav .nav-link{
+    color: #fff !important;
+}
+
+header .navbar-nav .nav-link:hover{
+    background-color: #fff;
+    color: #1FDB84 !important;
+}
+
+header .navbar-nav .login-link{
+    display: block;
+    color: #1FDB84 !important;
+
+}
+
+header .navbar-nav .register-link{
+    background-color: #1FDB84;
+
+}
+
+/*MAIN*/
+
+/*section BITCOIN*/
+
+.bitcoin .bitcoin-item .bitcoin-item-title{
+    line-height: 3.5rem;
+    color: #fff;
+}
+
+.bitcoin .bitcoin-item .bitcoin-item-text{
+    color: #fff;
+}
+
+.bitcoin .bitcoin-item-link{
+    color: #fff !important;
+    background-color: #1FDB84;
+    border-radius: 6px;
+}
+
+.bitcoin .bitcoin-item-link:hover{
+    box-shadow: 0 -8px 34px 0 rgba(31,219,132,0.6);
+}
+
+.bx-wrapper{
+    background-color: #313A5A;
+    border: none;
+    box-shadow: none;
+
+}
+
+.bx-wrapper .bx-pager{
+    position: absolute;
+    bottom: 15%;
+
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+    width: 9px;
+    height: 9px;
+    background-color: #313A5A;
+    border: solid 1px #1FDB84; 
+    text-decoration: none;
+
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:hover{
+    background-color: #1FDB84 !important;
+
+}
+
+
+/*section BENEFIT*/
+
+
+.benefit{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: -45%;
+    min-height: 420px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+
+}
+
+
+
+.benefit .benefit-item span{
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #1FDB84;
+}
+
+
+/*section PAID*/
+
+.pricing{
+    background: #fff;
+    margin-bottom: 116px;
+}
+
+.pricing .pricing-title{
+
+    margin: 0 auto;
+    color: #32325C;
+    line-height: 3.7rem;
+
+}
+
+
+
+.pricing .pricing-article-item .pricing-article-item-title{
+    color: #32325C;
+}
+
+
+.pricing .pricing-article-item .pricing-article-item-price{
+    color: #1FDB84;
+    line-height: 4rem;
+}
+
+.pricing .pricing-article-item .pricing-article-item-text{
+    color: #5B6C94;
+    letter-spacing: 0.18px;
+}
+
+.pricing .pricing-article-item ul{
+    margin-bottom: 59px;
+    list-style: none;
+    padding: 0;
+}
+
+
+.pricing .pricing-article-item ul li{
+    color: #5B6C94;
+    letter-spacing: 0.18px;
+
+}
+
+.pricing .pricing-article-item .start{
+    display: inline-block;
+    color: #fff;
+    background-color: #1FDB84;
+    border-radius: 6px;
+    padding: 21px 31px;
+    text-decoration: none;
+
+}
+
+.pricing .pricing-article-item .start:hover{
+    box-shadow: 0 8px 34px 0 rgba(31,219,132,0.6);
+}
+
+.pricing .pricing-article-item{
+    padding: 56px;
+    box-shadow: 0 7px 24px 0 transparent;
+    border-top: 3px solid transparent;
+}
+
+.pricing .pricing-article-item:hover{
+    box-shadow: 0 7px 24px 0 rgba(83,83,83,0.1);
+    border-top: 3px solid #0A8AFF;
+}
+
+/*section TESTIMONIALS*/
+
+.testimonials{
+    background-color: #fff;
+    margin-bottom: 112px;
+}
+
+
+.testimonials .testimonials-title{
+    line-height: 3rem;
+    color: #031D5B;
+    padding: 70px 24px 170px 16px;
+    background: url(../images/testimonials/bg-title.png), no-repeat, top left;
+    background-size: cover;
+
+}
+
+.testimonials  .one{
+    padding-top: 80px;
+    padding-bottom: 64px;
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px 0 rgba(31,219,132,0.5);
+
+}
+
+.testimonials  .two{
+    padding-top: 80px;
+    padding-bottom: 64px;
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 12px 12px 40px 0 rgba(121,121,121,0.3);
+}
+
+.testimonials .one .testimonials-item-text{
+    padding-bottom: 37%;
+    color: #fff;
+}
+
+.testimonials .one .testimonials-item-person,
+.testimonials .one .testimonials-item-studio{
+    color: #fff;
+}
+
+.testimonials .two .testimonials-item-text{
+    padding-bottom: 20%;
+    color: #5B6C94;
+}
+
+.testimonials .two .testimonials-item-person{
+    color: #031D5B;
+}
+
+.testimonials .two .testimonials-item-studio{
+    opacity: 0.4;
+    color: #031D5B;
+}
+
+.testimonials .carousel-item{
+    margin-bottom: 91px;
+}
+
+.testimonials .carousel-indicators li{
+    height: 9px;
+    width: 9px;
+    border: 1px solid #1FDB84;
+    border-radius: 50%; 
+}
+
+.testimonials .carousel-indicators li.active,
+.testimonials .carousel-indicators li:hover{
+    background-color: #1FDB84;
+}
+
+
+/*section GALLERY*/
+
+.gallery{
+    margin-bottom: 71px;
+}
+
+.gallery figure{
+    position: relative;
+}
+
+.gallery figure:hover .zoom-icon{
+    display: block;
+}
+
+.gallery figure .zoom-icon{
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    z-index: 1;
+    transform: translateX(50%);
+    display: none;
+  
+}
+
+/*section CLIENT*/
+
+.client{
+    margin-bottom: 144px;
+}
+
+
+/*FOOTER*/
+
+footer .footer-nav ul{
+    list-style: none;
+}
+
+footer .footer-nav ul li a{
+    margin-right: 20px;
+    color: #5B6C94;
+}
